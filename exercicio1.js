@@ -1,2 +1,5 @@
-//use class;
+// { Exercício 1: Inspecione um documento para que você se familiarize com a estrutura.
+// Entenda os atributos e os níveis existentes. }
+
+// use class;
 db.superheroes.findOne();
