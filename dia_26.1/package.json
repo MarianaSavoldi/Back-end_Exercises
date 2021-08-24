@@ -1,0 +1,25 @@
+{
+  "name": "my-scripts",
+  "version": "0.1.0",
+  "description": "Meu primeiro script NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MarianaSavoldi/Back-end_Exercises.git"
+  },
+  "keywords": [
+    "nodejs",
+    "primeiro",
+    "aprendendo",
+    "exercicio"
+  ],
+  "author": "Mari Savoldi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarianaSavoldi/Back-end_Exercises/issues"
+  },
+  "homepage": "https://github.com/MarianaSavoldi/Back-end_Exercises#readme"
+}
