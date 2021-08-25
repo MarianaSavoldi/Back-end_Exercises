@@ -2,9 +2,10 @@
   "name": "my-scripts",
   "version": "0.1.0",
   "description": "Meu primeiro script NodeJS",
-  "main": "index.js",
+  "main": "imc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imc": "node imc.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/MarianaSavoldi/Back-end_Exercises/issues"
   },
-  "homepage": "https://github.com/MarianaSavoldi/Back-end_Exercises#readme"
+  "homepage": "https://github.com/MarianaSavoldi/Back-end_Exercises#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
