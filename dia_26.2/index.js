@@ -34,12 +34,26 @@ function numero() {
   return Math.floor(Math.random() * 100 + 1)
 }
 
-function exercicio2() {
-  const numeros = Array.from({length: 3}).map(numero)
-  exercicio1(...numeros)
-    .then(res => console.log(res))
-    .catch(err => console.error(err.message))
+// function exercicio2() {
+//   const numeros = Array.from({length: 3}).map(numero)
+//   exercicio1(...numeros)
+//     .then(res => console.log(res))
+//     .catch(err => console.error(err.message))
+// }
+
+// exercicio2();
+
+//------------------------------------------
+
+// Exercício 3
+async function exercicio2() {
+  const numeros = Array.from({length: 3}).map(numero);
+  try {
+    const exercicio3 = await exercicio1(...numeros);
+    console.log(exercicio3);
+  } catch(err) {
+    console.error(err);
+  }
 }
 
 exercicio2();
-
