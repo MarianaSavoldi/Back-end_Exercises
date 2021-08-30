@@ -1,12 +1,16 @@
 {
   "name": "refazendo_a_aula",
   "version": "1.0.0",
-  "description": "",
+  "description": "Estou refazendo esse código para praticar melhor a criação de uma API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Mari Savoldi, Cristiano (Especialista da Trybe)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
