@@ -14,7 +14,10 @@ const books = [
   { id: 6, title: 'Brave New World', author: 'Aldous Huxley' }
 ];
 
-// Passo 5: Criar os gets
+// Passo 5: Criar os gets (ordenados por rotas específicas)
+app.get('/books', (_req, res) => {
+  res.json(books)
+});
 
 // Passo 6: Criar os posts
 
