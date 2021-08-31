@@ -15,6 +15,12 @@ const books = [
 ];
 
 // Passo 5: Criar os gets (ordenados por rotas específicas)
+app.get('/books/search', (req, res) => {
+  const author = req.query.author;
+  const filteredBooks = books.filter((b) => b.author === author);
+  return res.status(200).json({ books: filteredBooks });
+})
+
 app.get('/books', (_req, res) => {
   res.json(books)
 });
